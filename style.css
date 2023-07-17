@@ -1,0 +1,32 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.form__padding {
+  padding: 25px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.pagination__item {
+  padding: 8px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.pagination__item--active {
+  font-weight: 800;
+  color: rgb(125, 125, 230);
+}
